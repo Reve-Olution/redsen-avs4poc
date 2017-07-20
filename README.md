@@ -15,3 +15,10 @@
 - [ ] mercredi 08.11.2017 dés 14:00
 - [ ] mercredi 29.11.2017 dés 14:00
 
+## Questions:
+
+### Isolation du domaine
+> Décision: aucune invasion dans le domaine autre que java.*, commons.apacche." et les dépendances du domaine
+> Du coup, 2 possibilités pour isoler correctement les entités de la persistaence:
+> Soit mapping via fichier xml
+> Soit couche de mapping (couche application)
