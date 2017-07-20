@@ -28,5 +28,6 @@ Du coup, 2 possibilités pour isoler correctement les entités de la persistence
 * Soit couche de mapping (couche application) Entites persistantce <-> Entites Domaines 
 
 > Quel est le choix que tu préconises entre les deux (mapping xml vs mapping objet)?
+
 > Dans le cas du mappiong objet, fw potentiels: http://mapstruct.org/ - MapStruct, http://modelmapper.org/ - ModelMapper, as-tu une expérience dans ce cadre-là?
 
