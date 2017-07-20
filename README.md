@@ -47,3 +47,14 @@ Certaines exigences du POC nécessitent l'utilisation d'un BPM. Relativement lé
 > Le choix de node.js te parait-il un bon choix pour un front?
 
 > Ou préferable dépliomenet front avec WAR ?
+
+### Domain Driven Design
+""Méthodologie ddd, documentation**
+
+> Comment passer du résulat du travail EventStorming (post it sur tableau) à une modlisation du domaine (entites, vo, aggregats, contexte bornée), --> méthode, article...?
+
+### Couverture de test unitaires
+
+> Quel est le périmètre des test unitaires, pour le domaine --> 100%, ou 50% unitaire et 50% bdd?
+
+> Mock: frameworks/librairies à conseiller?
