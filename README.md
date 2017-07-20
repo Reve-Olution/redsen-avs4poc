@@ -40,3 +40,10 @@ Certaines exigences du POC nécessitent l'utilisation d'un BPM. Relativement lé
 > Le choix de activiti te semble t'il pertinent?
 
 > Nous avions initilement pensé à un outil de machine à état (Spring State Machine), afin de "simuler" le BPM. Que pense tu du choix (à priori abandonné)?
+
+### Découplage front-back
+**Décision: application web back sur Tomcat, application front angular 4.x sur serveur WEB (Tomcat, apache ou evt. node)**
+
+> Le choix de node.js te parait-il un bon choix pour un front?
+
+> Ou préferable dépliomenet front avec WAR ?
