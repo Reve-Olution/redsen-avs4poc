@@ -4,6 +4,7 @@
 * Application web basé sur SpringBoot
 * Persistence avec DB2
 * Serveur applicatif Tomcat
+* Approche BPM (exigences demandées)
 
 ## Mode de travail avec REDSEN
 * Idéalement revue de conception aux dates suivantes (**Jérémie merci de cocher ce qui est ok pour toi**), online et via repo GitHub:
@@ -31,3 +32,11 @@ Du coup, 2 possibilités pour isoler correctement les entités de la persistence
 
 > Dans le cas du mappiong objet, fw potentiels: http://mapstruct.org/ - MapStruct, http://modelmapper.org/ - ModelMapper, as-tu une expérience dans ce cadre-là?
 
+### Approche BPM
+**Décision: utilisation du moteur activiti**
+
+Certaines exigences du POC nécessitent l'utilisation d'un BPM. Relativement léger dans le cadre du POC.
+
+> Le choix de activiti te semble t'il pertinent?
+
+> Nous avions initilement pensé à un outil de machine à état (Spring State Machine), afin de "simuler" le BPM. Que pense tu du choix (à priori abandonné)?
