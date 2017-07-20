@@ -22,6 +22,8 @@
 
 ### Isolation du domaine
 **Décision: aucune invasion dans le domaine autre que java.*, commons.apacche." et les dépendances du domaine**
-Du coup, 2 possibilités pour isoler correctement les entités de la persistaence:
-Soit mapping via fichier xml
-Soit couche de mapping (couche application)
+
+Du coup, 2 possibilités pour isoler correctement les entités de la persistence:
+* Soit mapping via fichier xml
+* Soit couche de mapping (couche application)
+** 
