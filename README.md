@@ -52,6 +52,7 @@ Certaines exigences du POC nécessitent l'utilisation d'un BPM. Relativement lé
 ""Méthodologie ddd, documentation**
 
 > Comment passer du résulat du travail EventStorming (post it sur tableau) à une modlisation du domaine (entites, vo, aggregats, contexte bornée), --> méthode, article...?
+> Es-bien d'utiliser lombok pour le domaine ? Y t'il des danger avec spring ou autre?
 
 ### Couverture de test unitaires
 
